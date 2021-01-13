@@ -15,8 +15,8 @@ BITS 16
 %define VIDEO_SERVICES_INTERRUPT (0x10)
 
 ; Game Constants
-%define SNAKE_X_BUFFER  		 (0x7E00)
-%define SNAKE_Y_BUFFER  		 (0x85D0)
+%define SNAKE_X_BUFFER  		 (0x1000)
+%define SNAKE_Y_BUFFER  		 (0x2000)
 %define SNAKE_LEFT_BIT			 (0b1000)
 %define SNAKE_RIGHT_BIT 		 (0b0100)
 %define SNAKE_UP_BIT			 (0b0010)
